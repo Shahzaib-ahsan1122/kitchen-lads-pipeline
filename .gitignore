@@ -1,0 +1,13 @@
+# Database
+*.duckdb
+*.duckdb-wal
+*.duckdb-journal
+
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc

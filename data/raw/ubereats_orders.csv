@@ -1,0 +1,4 @@
+order_id,order_date,delivery_type,item_name,quantity,gross_amount
+UE-1001,2026-10-28 12:15:00,Platform Delivery,Lrg Lamb Donner Wrap,1,12.50
+UE-1002,2026-10-28 12:45:00,Platform Delivery,Chix Tikka Box (Large),2,18.00
+UE-1003,2026-10-28 13:10:00,Self Delivery,6 x Peri Wings,1,6.50

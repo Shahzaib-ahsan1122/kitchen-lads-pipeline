@@ -1,0 +1,23 @@
+name: 'kitchen_lads_pipeline'
+version: '1.0.0'
+config-version: 2
+
+profile: 'kitchen_lads'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["data/seeds"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  kitchen_lads_pipeline:
+    silver:
+      +materialized: view
+    gold:
+      +materialized: table

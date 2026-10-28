@@ -1,0 +1,3 @@
+order_id,order_date,delivery_type,item_name,quantity,gross_amount
+DEL-501,2026-10-28 12:20:00,Platform Delivery,Lamb Donner - Large,1,12.50
+DEL-502,2026-10-28 13:00:00,Platform Delivery,12 Inch Margherita,1,11.00

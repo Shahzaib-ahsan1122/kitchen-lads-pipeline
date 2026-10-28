@@ -1,0 +1,3 @@
+order_id,order_date,delivery_type,item_name,quantity,gross_amount
+FH-901,2026-10-28 11:50:00,Self Delivery,Chicken Tikka Box,1,9.00
+FH-902,2026-10-28 12:30:00,Self Delivery,12 Inch Margherita,2,22.00

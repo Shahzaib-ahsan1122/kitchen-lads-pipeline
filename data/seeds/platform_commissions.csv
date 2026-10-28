@@ -1,0 +1,7 @@
+channel,delivery_type,commission_pct,vat_pct,fixed_fee_per_order
+Uber Eats,Platform Delivery,0.30,0.20,0.00
+Uber Eats,Self Delivery,0.13,0.20,0.00
+Deliveroo,Platform Delivery,0.30,0.20,0.00
+Just Eat,Platform Delivery,0.30,0.20,0.00
+Just Eat,Self Delivery,0.14,0.20,0.00
+Foodhub,Self Delivery,0.00,0.00,0.20

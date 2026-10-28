@@ -1,0 +1,7 @@
+kitchen_lads:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: kitchen_lads.duckdb
+      threads: 4

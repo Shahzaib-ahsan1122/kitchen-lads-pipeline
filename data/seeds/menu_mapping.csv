@@ -1,0 +1,9 @@
+raw_item_name,canonical_item_name,category,match_confidence_score,status
+Lrg Lamb Donner Wrap,Lamb Donner Wrap,Kebabs,100.0,AUTO_MAPPED
+Lamb Donner - Large,Lamb Donner Wrap,Kebabs,100.0,AUTO_MAPPED
+WRAP-LD-LRG,Lamb Donner Wrap,Kebabs,100.0,AUTO_MAPPED
+Chicken Tikka Box,Chicken Tikka Rice Box,Rice Boxes,100.0,AUTO_MAPPED
+Chix Tikka Box (Large),Chicken Tikka Rice Box,Rice Boxes,100.0,AUTO_MAPPED
+6 x Peri Wings,Peri-Peri Wings (6pcs),Grill & Sides,100.0,AUTO_MAPPED
+12 Inch Margherita,"Margherita Pizza (12"")",Pizzas,100.0,AUTO_MAPPED
+ricebox1,Chicken Tikka Rice Box,Rice Boxes,100.0,AUTO_MAPPED
