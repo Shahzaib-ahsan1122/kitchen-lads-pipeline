@@ -1,0 +1,40 @@
+version: 2
+
+sources:
+  - name: kitchen_lads
+    database: kitchen_lads_pipeline
+    schema: main
+    tables:
+      - name: raw_ubereats
+      - name: raw_deliveroo
+      - name: raw_justeat
+      - name: raw_foodhub
+
+models:
+  - name: int_unified_orders
+    description: "Unified and cleaned orders across all delivery platforms with commission calculations."
+    columns:
+      - name: order_id
+        description: "Unique identifier for the order."
+        tests:
+          - not_null
+      - name: net_amount
+        description: "Net revenue after platform commissions and fixed fees."
+        tests:
+          - not_null
+
+  - name: gold_channel_profitability
+    description: "Aggregated financial performance by platform channel."
+    columns:
+      - name: platform
+        tests:
+          - not_null
+          - unique
+
+  - name: gold_menu_rankings
+    description: "Ranking of canonical menu items by volume and revenue."
+    columns:
+      - name: canonical_item_name
+        tests:
+          - not_null
+          - unique

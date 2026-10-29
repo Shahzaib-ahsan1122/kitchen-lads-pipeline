@@ -7,7 +7,7 @@ profile: 'kitchen_lads'
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
-seed-paths: ["data/seeds"]
+seed-paths: ["seeds"]
 macro-paths: ["macros"]
 
 target-path: "target"

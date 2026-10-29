@@ -3,5 +3,5 @@ kitchen_lads:
   outputs:
     dev:
       type: duckdb
-      path: kitchen_lads.duckdb
+      path: 'kitchen_lads_pipeline.duckdb'
       threads: 4
